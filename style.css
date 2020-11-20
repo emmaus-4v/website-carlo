@@ -31,6 +31,7 @@ header {
 footer {
     text-align: center;
     padding-bottom: 10px;
+    clear: both;
 }
 
 
@@ -82,9 +83,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(9, 0, 128);
 }
-
-
-
-
