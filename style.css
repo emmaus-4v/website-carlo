@@ -62,6 +62,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#WIIMini {
+    clear: both;
+}
+
 
 /* navigatiebalk */
 nav ul {
@@ -90,4 +94,17 @@ nav li a:hover {
 
 nav li a.active {
     background-color: rgb(9, 0, 128);
+}
+
+/* Specifieke paginas*/
+
+div.imageWithDescription {
+  float: right;
+  width: 30%;
+  background-color: white;
+  border: 3px solid black;
+}
+
+div.DescriptionOfImage {
+  text-align: center;
 }
