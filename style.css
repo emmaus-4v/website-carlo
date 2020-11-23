@@ -4,9 +4,8 @@ html, body {
     height: 100%;
     padding: 0;
     background-color: white;  
-    
+    font-family: 'Roboto', sans-serif;
     color: #303030;
-    font: Verdana, Arial, Sans-Serif;
 }
 
 
@@ -23,15 +22,21 @@ article {
 
 
 header {
-    color: skyblue;
+    color: black;
     text-align: center;
 }
-
 
 footer {
     text-align: center;
     padding-bottom: 10px;
     clear: both;
+}
+footer p {
+    display: block;
+}
+
+a:hover {
+    background-color: #aaaaaa;
 }
 
 
@@ -62,17 +67,13 @@ a:hover {
     text-decoration: underline;
 }
 
-#WIIMini {
-    clear: both;
-}
-
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -84,27 +85,34 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #aaaaaa;
 }
 
 nav li a.active {
     background-color: rgb(9, 0, 128);
 }
 
-/* Specifieke paginas*/
+/* Hardware pagina */
+
+#WIIMini, #WIIFamily {
+    clear: both;
+}
 
 div.imageWithDescription {
   float: right;
   width: 30%;
   background-color: white;
-  border: 3px solid black;
+  border: solid black;
+  border-width: 2px 0px;
 }
 
 div.DescriptionOfImage {
   text-align: center;
+}
+
+.hardwaretext {
+    float: left;
+    width: 66%;
+    margin-right: 2%;
 }
