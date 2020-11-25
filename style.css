@@ -104,7 +104,7 @@ div.imageWithDescription {
   width: 30%;
   background-color: white;
   border: solid black;
-  border-width: 2px 0px;
+  border-width: 0px 0px 1px 0px;
 }
 
 div.DescriptionOfImage {
