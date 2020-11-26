@@ -5,13 +5,14 @@ html, body {
     padding: 0;
     background-color: white;  
     font-family: 'Roboto', sans-serif;
+    font-size: 110%;
     color: #303030;
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 70%;
     position: relative;
 }
 
@@ -115,4 +116,11 @@ div.DescriptionOfImage {
     float: left;
     width: 66%;
     margin-right: 2%;
+}
+
+/* Modding pagina */
+
+#WIIinsides {
+    width: 30%;
+    float: right;
 }
