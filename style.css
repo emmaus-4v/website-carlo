@@ -114,15 +114,8 @@ div.DescriptionOfImage {
   text-align: center;
 }
 
-.hardwaretext {
+.textLeft {
     float: left;
     width: 66%;
     margin-right: 2%;
-}
-
-/* Modding pagina */
-
-#WIIinsides {
-    width: 30%;
-    float: right;
 }
