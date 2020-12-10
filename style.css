@@ -13,7 +13,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 70%;
+    width: 900px;
     position: relative;
 }
 
@@ -82,6 +82,7 @@ nav ul {
 
 nav ul li {
     float: left;
+    width: 20%;
 }
 
 nav ul li a {
