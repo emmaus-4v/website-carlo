@@ -39,7 +39,8 @@ footer p {
 }
 
 a:hover {
-    background-color: #aaaaaa;
+    animation: ChangeColorActive 1s;
+    animation-iteration-count: 1;
 }
 
 
@@ -72,6 +73,7 @@ a:hover {
 
 
 /* navigatiebalk */
+
 nav ul {
     list-style-type: none;
     margin: auto;
@@ -119,4 +121,54 @@ div.DescriptionOfImage {
     float: left;
     width: 66%;
     margin-right: 2%;
+}
+
+#WIItennisGIF {
+    animation: PositionFunny 5s infinite alternate;
+}
+
+/* Animation keyframes */
+
+@keyframes ChangeColorActive {
+    0% {
+        color: White;
+    }
+
+    50% {
+        color: rgb(130, 130, 130);
+    }
+
+    100% {
+        color: White;
+    }
+}
+
+@keyframes PositionFunny {
+    0% {
+        width: 25%;
+        height: 200px;
+    }
+
+    25% {
+        width: 100%;
+        height: 200px;
+    }
+
+    50% {
+        width: 25%;
+        height: 200px;
+        float: left;
+    }
+
+    
+    75% {
+        width: 100%;
+        height: 200px;
+    }
+
+    100% {
+        width: 25%;
+        height: 200px;
+        float: right;
+    }
 }
